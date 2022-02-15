@@ -25,7 +25,10 @@ SECRET_KEY = '!to(x$qj@c7t7g@^jzx8aqy_7tmkx$+a0r-zo=&8*t2m_-p&k+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    'clearsky777.iptime.org',
+]
 
 
 # Application definition
